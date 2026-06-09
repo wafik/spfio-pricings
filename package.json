@@ -9,7 +9,8 @@
     "lint": "oxlint --tsconfig tsconfig.app.json --deny-warnings src",
     "format": "oxfmt --write src/**/*.{ts,tsx}",
     "format:check": "oxfmt --check src/**/*.{ts,tsx}",
-    "preview": "vite preview"
+    "preview": "bun run build && wrangler dev",
+    "deploy": "bun run build && wrangler deploy"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
@@ -34,6 +35,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.40.0",
     "@types/node": "^24.12.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
@@ -41,6 +43,7 @@
     "oxfmt": "^0.54.0",
     "oxlint": "^1.69.0",
     "typescript": "~6.0.2",
-    "vite": "^8.0.12"
+    "vite": "^8.0.12",
+    "wrangler": "^4.98.0"
   }
 }
