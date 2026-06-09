@@ -174,7 +174,7 @@ export function SocialProof() {
           <Button
             variant="primary"
             size="lg"
-            className="rounded-full w-full sm:w-auto text-sm"
+            className="rounded-full w-full sm:w-auto text-sm text-white"
             asChild
           >
             <a href="https://www.spf.io/request-a-quote/">

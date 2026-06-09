@@ -11,6 +11,10 @@ Interactive pricing simulator for [spf.io](https://www.spf.io) — an AI-powered
 - **Bun** — runtime & package manager
 - **oxfmt** / **oxlint** — formatter & linter
 
+## Live Demo
+
+[spfio-pricings.ulinmedia.workers.dev](https://spfio-pricings.ulinmedia.workers.dev/)
+
 ## Getting Started
 
 ```bash
